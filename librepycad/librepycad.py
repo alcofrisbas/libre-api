@@ -85,6 +85,7 @@ class PL(Command):
 class Arc(Command):
     def __init__(self, *args, center=False):
         self.center=center
+        # call  these coord for to expand them into indiv args
         self.args = [arg() if type(arg)==Coord else arg for arg in args ]
 
     def __call__(self):
