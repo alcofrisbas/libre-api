@@ -41,7 +41,7 @@ def cross(center, size):
     return l1, l2
 
 
-with lpc.Project("kb1") as kb1:
+with lpc.Project("outputs/kb1") as kb1:
     ROW_OFFSET = KSW+KSD
     key_holes = []
     for r in range(3):

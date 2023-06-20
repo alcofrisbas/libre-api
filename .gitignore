@@ -131,3 +131,6 @@ dmypy.json
 # current file extension
 .lpc
 kb*
+
+# cad outputs
+outputs/
